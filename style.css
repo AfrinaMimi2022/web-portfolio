@@ -1,5 +1,9 @@
 body{
+    margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    height: 500px;
 }
 
 h1{
@@ -16,6 +20,72 @@ h1{
     margin-top: 2%;
     padding-left: 5%;
 }
+
+/* .link-button{
+    text-decoration: none;
+    background-color: rgb(246, 93, 93);
+    color: white;
+    border-radius: 2px;
+    padding: 10px, 20px;
+    width: 100px;
+
+} */
+ul{
+    color: dimgray;
+}
+
 .half-width img{
-    width: 100%;
+    width: 90%;
+}
+
+.top-banner{
+    /* border: 5px solid orange; */
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.second-banner{
+    /* border: 5px solid orange; */
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+p{
+    color: dimgrey;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.aligneing{
+    margin-top: 115px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+}
+#era{
+    border-left: 10px solid ;
+    border-image:linear-gradient(180deg, rgb(81, 238, 131), rgb(2, 106, 39));
+    border-image-slice: 1;
+}
+#cculb{
+    border-left: 10px solid ;
+    border-image:linear-gradient(180deg, rgb(100, 174, 238), rgb(48, 5, 108));
+    border-image-slice: 1;
+
+}
+footer{
+    padding:40px;
+    text-align: center;
+    color:dimgray;
+    font-size: 12px;
 }
